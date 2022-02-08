@@ -12,6 +12,14 @@ module.exports = {
     "semi": "off",
     "@typescript-eslint/semi": ["error"],
     "quotes": "off",
-    "@typescript-eslint/quotes": ["error"]
+    "@typescript-eslint/quotes": ["error"],
+  },
+  env : {
+    "jest/globals": true
+  },
+  settings: {
+    jest: {
+      version: 27
+    }
   }
 };
