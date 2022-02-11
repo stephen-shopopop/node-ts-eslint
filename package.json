@@ -32,7 +32,7 @@
     "prepublishOnly": "npm run build",
     "clean": "rimraf dist",
     "lint": "eslint . --ext .ts",
-    "lint:fix": "npx prettier --write .",
+    "prettier": "npx prettier --write .",
     "typecheck": "npx prettier --check . && tsc --noEmit",
     "release": "standard-version",
     "prerelease": "standard-version -- --prerelease",
