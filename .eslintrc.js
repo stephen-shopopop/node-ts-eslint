@@ -54,7 +54,45 @@ module.exports = {
     "no-extra-semi": "off",
     "@typescript-eslint/no-extra-semi": ["error"],
     // Interdire l'itération sur un tableau avec une boucle for-in
-    "@typescript-eslint/no-for-in-array": "error"
+    "@typescript-eslint/no-for-in-array": "error",
+    // Interdire les déclarations de fonction qui contiennent des références non sécurisées à l'intérieur des instructions de boucle
+    "no-loop-func": "off",
+    "@typescript-eslint/no-loop-func": ["error"],
+    // Appliquer une définition valide de newet constructor.
+    "@typescript-eslint/no-misused-new": "error",
+    // Interdit l'utilisation d'une assertion non nulle après une expression de chaîne facultative.
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
+    // Interdit les assertions non nulles à l'aide de l' !opérateur postfixé
+    "@typescript-eslint/no-non-null-assertion": "warn",
+    // Interdire la redéclaration des variables
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": ["error"],
+    // Interdire les nombres littéraux qui perdent de la précision
+    "no-loss-of-precision": "off",
+    "@typescript-eslint/no-loss-of-precision": ["error"],
+    // Interdire les déclarations de variables des variables fantômes déclarées dans la portée externe
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    // Interdit les contraintes inutiles sur les types génériques
+    "@typescript-eslint/no-unnecessary-type-constraint": "error",
+    // Interdire les variables inutilisées
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    // Interdire l'utilisation de variables avant qu'elles ne soient définies
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    // Interdire les constructeurs inutiles.
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": ["error"],
+    // Interdit l'utilisation d'instructions require sauf dans les instructions d'importation: import foo = require("foo")
+    "@typescript-eslint/no-var-requires": "error",
+    // Prefer const literal
+    "@typescript-eslint/prefer-as-const": "error",
+    // Applique un espacement cohérent avant les parenthèses de fonction
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": ["error"],
+    // Espacement sur objet
+    "object-curly-spacing": ["error", "always"]
   },
   overrides: [
     {
