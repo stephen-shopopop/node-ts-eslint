@@ -88,9 +88,6 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "error",
     // Prefer const literal
     "@typescript-eslint/prefer-as-const": "error",
-    // Applique un espacement cohérent avant les parenthèses de fonction
-    "space-before-function-paren": "off",
-    "@typescript-eslint/space-before-function-paren": ["error"],
     // Espacement sur objet
     "object-curly-spacing": ["error", "always"]
   },
