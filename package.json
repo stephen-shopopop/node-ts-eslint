@@ -52,14 +52,6 @@
     "pre-commit": "npx commitlint --edit $1 & npm run lint",
     "pre-push": "npm run typecheck"
   },
-  "ts-standard": {
-    "ignore": [
-      "dist",
-      "docs",
-      "jest.config.ts",
-      "commitlint.config.js"
-    ]
-  },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
