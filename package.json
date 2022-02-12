@@ -40,9 +40,6 @@
     "fix": "standard-version -- --release-as minor",
     "doc": "rimraf docs && npx typedoc src/index.ts"
   },
-  "bin": {
-    "app": "./bin/mod"
-  },
   "keywords": [
     "eslint",
     "nodejs",
