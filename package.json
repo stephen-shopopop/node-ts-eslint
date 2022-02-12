@@ -33,7 +33,6 @@
     "clean": "rimraf dist",
     "lint": "eslint . --ext .ts",
     "lint:fix": "npm run lint -- --fix",
-    "prepare": "npm run build",
     "typecheck": "tsc --noEmit",
     "release": "standard-version",
     "prerelease": "standard-version -- --prerelease",
