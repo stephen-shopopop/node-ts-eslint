@@ -12,9 +12,10 @@ module.exports = {
     "plugin:yml/standard",
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
+    "plugin:promise/recommended",
   ],
   plugins: [
-    "html",
+    "promise",
     "unicorn",
   ],
   settings: {
@@ -202,6 +203,9 @@ module.exports = {
     "require-await": "off",
     "no-return-assign": "off",
     "operator-linebreak": ["error", "before"],
+    "radix": "error",
+    "max-len": ["error", { code: 120, ignoreUrls: true }],
+    "max-lines": ["error", 1000],
 
     // unicorns
     // Pass error message when throwing errors

@@ -45,7 +45,6 @@ npm start
 - [ESLint unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [ESLint comments](https://mysticatea.github.io/eslint-plugin-eslint-comments/)
 - [ESLint import](https://github.com/import-js/eslint-plugin-import)
-- [ESLint html](https://github.com/BenoitZugmeyer/eslint-plugin-html) (for typedoc)
 - [ESLint json](https://www.npmjs.com/package/eslint-plugin-jsonc)
 - [ESLint promise](https://www.npmjs.com/package/eslint-plugin-promise)
 - [ESLint yaml](https://www.npmjs.com/package/eslint-plugin-yml) (for CI)
