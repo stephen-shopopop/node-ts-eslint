@@ -280,4 +280,12 @@ module.exports = {
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/no-namespace": "off",
   },
+  env: {
+    "jest/globals": true,
+  },
+  settings: {
+    jest: {
+      version: 27,
+    },
+  },
 };
