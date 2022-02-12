@@ -41,6 +41,7 @@ npm start
 
 - [Typescript ESLint](https://typescript-eslint.io)
 - [ESLint configuration](https://eslint.org/docs/user-guide/configuring/)
+- [ESLint rules](https://eslint.org/docs/rules/)
 - [ESLint standard](https://www.npmjs.com/package/eslint-config-standard)
 - [ESLint unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [ESLint comments](https://mysticatea.github.io/eslint-plugin-eslint-comments/)
