@@ -204,7 +204,7 @@ module.exports = {
     "no-return-assign": "off",
     "operator-linebreak": ["error", "before"],
     "radix": "error",
-    "max-len": ["error", { code: 120, ignoreUrls: true }],
+    "max-len": ["error", { code: 120, ignoreUrls: true, ignoreComments: true, ignoreRegExpLiterals: true }],
     "max-lines": ["error", 1000],
 
     // unicorns
