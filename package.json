@@ -41,7 +41,10 @@
   },
   "keywords": [
     "eslint",
-    "prettier"
+    "nodejs",
+    "typescript",
+    "es6",
+    "browser"
   ],
   "author": "tech-shopopop <tech@shopopop.com>",
   "license": "ISC",
