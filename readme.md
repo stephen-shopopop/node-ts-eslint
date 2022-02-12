@@ -41,6 +41,7 @@ npm start
 
 - [Typescript ESLint](https://typescript-eslint.io)
 - [ESLint unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [ESLint comments](https://mysticatea.github.io/eslint-plugin-eslint-comments/)
 - [Apprendre nodejs](https://github.com/stephendltg/nodebook)
 - [Apprendre typescript](https://www.typescriptlang.org/fr/)
 - [Reference javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
