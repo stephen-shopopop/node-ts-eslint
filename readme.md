@@ -40,7 +40,7 @@ npm start
 ### Summary
 
 - [Typescript ESLint](https://typescript-eslint.io)
-- [Prettier](https://prettier.io/docs/en/install.html)
+- [ESLint unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [Apprendre nodejs](https://github.com/stephendltg/nodebook)
 - [Apprendre typescript](https://www.typescriptlang.org/fr/)
 - [Reference javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
