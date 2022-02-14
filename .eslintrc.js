@@ -1,8 +1,9 @@
 module.exports = {
   env: {
-    es6: true,
-    browser: true,
-    node: true,
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest/globals": true,
   },
   extends: [
     "standard",
@@ -13,14 +14,20 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "plugin:promise/recommended",
+    "plugin:security-node/recommended",
+    // "plugin:n/recommended", for nodejs esm
   ],
   plugins: [
     "promise",
     "unicorn",
+    "security-node",
   ],
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs", ".ts", ".d.ts"] },
+    },
+    "jest": {
+      version: 27,
     },
   },
   overrides: [
@@ -203,6 +210,8 @@ module.exports = {
     "require-await": "off",
     "no-return-assign": "off",
     "operator-linebreak": ["error", "before"],
+
+    // shopopop-practice
     "radix": "error",
     "max-len": ["error", { code: 120, ignoreUrls: true, ignoreComments: true, ignoreRegExpLiterals: true }],
     "max-lines": ["error", 1000],
@@ -284,13 +293,5 @@ module.exports = {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/no-namespace": "off",
-  },
-  env: {
-    "jest/globals": true,
-  },
-  settings: {
-    jest: {
-      version: 27,
-    },
   },
 };
