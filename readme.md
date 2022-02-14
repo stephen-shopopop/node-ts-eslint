@@ -39,6 +39,20 @@ npm start
 
 ### Summary
 
+- [Apprendre nodejs](https://github.com/stephendltg/nodebook)
+- [Apprendre typescript](https://www.typescriptlang.org/fr/)
+- [Reference javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
+- [ECMA-262](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- [Nodejs best practices](https://github.com/goldbergyoni/nodebestpractices)
+- [Nodejs testing best practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+- [NPM documentation](https://docs.npmjs.com/cli/v8/commands)
+- [Package.json documentation](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
+- [Apprendre Git](https://www.atlassian.com/fr/git/tutorials/setting-up-a-repository)
+- [Git conventions](conventions.md)
+- [library & tools](tools.md)
+
+**ESLINT:**
+
 - [Typescript ESLint](https://typescript-eslint.io)
 - [ESLint configuration](https://eslint.org/docs/user-guide/configuring/)
 - [ESLint rules](https://eslint.org/docs/rules/)
@@ -54,20 +68,6 @@ npm start
 - [ESLint jest](https://www.npmjs.com/package/eslint-plugin-jest)
 - [ESLint parser json](https://www.npmjs.com/package/jsonc-eslint-parser)
 - [ESLint parser yaml](https://www.npmjs.com/package/yaml-eslint-parser)
-
-----
-
-- [Apprendre nodejs](https://github.com/stephendltg/nodebook)
-- [Apprendre typescript](https://www.typescriptlang.org/fr/)
-- [Reference javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
-- [ECMA-262](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-- [Nodejs best practices](https://github.com/goldbergyoni/nodebestpractices)
-- [Nodejs testing best practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
-- [NPM documentation](https://docs.npmjs.com/cli/v8/commands)
-- [Package.json documentation](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
-- [Apprendre Git](https://www.atlassian.com/fr/git/tutorials/setting-up-a-repository)
-- [Git conventions](conventions.md)
-- [library & tools](tools.md)
 
 ### VSCODE Addons
 
