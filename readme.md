@@ -16,6 +16,11 @@
 
 Template for [nodejs/browser/es6/typescript] with ESLint configuration
 
+## Installation nodejs via nvm (node version manager)
+
+- [macos/linux](https://github.com/nvm-sh/nvm) or use Makefile command: ```make nvm```
+- [windows](https://github.com/coreybutler/nvm-windows)
+
 ## Contributing
 
 1. npm run build - Build library.
