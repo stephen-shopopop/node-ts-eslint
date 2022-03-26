@@ -2,12 +2,20 @@
 
 ## JEST
 
-- https://jestjs.io/docs/api#describename-fn
-- https://jestjs.io/docs/expect
+- [jest api](https://jestjs.io/docs/api#describename-fn)
+- [jest expect](https://jestjs.io/docs/expect)
 
 ## TYPEDOC
 
-- https://typedoc.org
+- [typedoc](https://typedoc.org)
+
+## TS-CONFIG
+
+- [ts-config](https://github.com/stephen-shopopop/ts-config)
+
+## ESLINT-CONFIG
+
+- [eslint-config](https://github.com/stephen-shopopop/eslint-config)
 
 ## Simple-git-hook:
 
