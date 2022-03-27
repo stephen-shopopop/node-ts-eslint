@@ -10,11 +10,11 @@
 [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-# NODEJS template: typescript compatibility
+# NODEJS typescript template:
 
 ## Description
 
-Template for [nodejs/browser/es6/typescript] with ESLint configuration
+Template for typescript with ESLint configuration
 
 ## Installation nodejs via nvm (node version manager)
 
