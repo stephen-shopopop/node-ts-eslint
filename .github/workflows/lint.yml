@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 14
           cache: "npm"
-          always-auth: true
+          registry-url: 'https://npm.pkg.github.com'
 
       # TODO: Install not all dependencies, but only those required for this workflow
       - name: Install dependencies
