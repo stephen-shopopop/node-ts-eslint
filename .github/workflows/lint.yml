@@ -27,6 +27,11 @@ jobs:
         with:
           node-version: 14
           cache: "npm"
+          
+      - name: Use .npmrc
+        uses: bduff9/use-npmrc@v1.1
+        with:
+          dot-npmrc: ${{ secrets.DOT_NPMRC }}
 
       # TODO: Install not all dependencies, but only those required for this workflow
       - name: Install dependencies
