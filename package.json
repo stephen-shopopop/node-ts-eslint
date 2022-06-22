@@ -55,7 +55,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
-    "@stephen-shopopop/eslint-config": "^1.5.1",
+    "@stephen-shopopop/eslint-config": "^1.6.1",
     "@stephen-shopopop/ts-config": "^1.1.7",
     "@types/node": "^18.0.0",
     "eslint": "8.18.0",
