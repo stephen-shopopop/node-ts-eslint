@@ -27,6 +27,8 @@ jobs:
         with:
           node-version: 14
           cache: "npm"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # TODO: Install not all dependencies, but only those required for this workflow
       - name: Install dependencies
