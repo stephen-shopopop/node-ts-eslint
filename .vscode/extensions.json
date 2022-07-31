@@ -1,6 +1,11 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "aaron-bond.better-comments",
+    "nicoespeon.abracadabra",
+    "ms-vsliveshare.vsliveshare"
   ]
 }

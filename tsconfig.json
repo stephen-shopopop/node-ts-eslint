@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
   "extends": "@stephen-shopopop/ts-config/tsconfig.json",
   "include": ["src/**/*"]
 }
