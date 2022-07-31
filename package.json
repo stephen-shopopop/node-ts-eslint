@@ -1,6 +1,6 @@
 {
   "name": "node-typescript-template-eslint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "template typescript nodejs with es-lint",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
